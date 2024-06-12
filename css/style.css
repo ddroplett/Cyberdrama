@@ -1,0 +1,64 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --background-color: #fff;
+    --front-color: #8053a2;
+}
+@font-face {
+   font-family: Cyberpunk;
+   src: url(/fonts/Cyberpunk.woff2);
+}
+@font-face {
+    font-family: Motorblock;
+    src: url(/fonts/Motorblock.ttf);
+}
+body{
+    background-image: url(/img/background.webp);
+    padding:10vw 3vh 3vh 3vh;
+    background-size: 100vw;
+    background-repeat: repeat;
+}
+body.dark{
+    --background-color: #302e2e;
+    --front-color: #ececdf;   
+}
+nav{
+    color: var(--front-color);
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    
+}
+main{
+    color: var(--front-color);
+}
+.logo{
+    font-size: 1.3rem;
+    font-family: Cyberpunk ;
+    color: var(--front-color);
+    text-decoration: none;
+}
+article{
+    /*padding: 7vh;
+    background-color: white;*/
+}
+article a img{
+    max-width: 100%;
+}
+article h2{
+    background-color: var(--background-color);
+    padding: 0.25rem;
+    display: inline;
+}
+article a{
+    text-decoration: none;
+}
+
+article p{
+    background-color: var(--background-color);
+}
