@@ -8,7 +8,7 @@ if(txt_length && comment){
 }
 
 
-alert("Formulier")
+//alert("Formulier")
 
 const darkModeBtn = document.getElementById('darkMode');
 
