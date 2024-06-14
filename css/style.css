@@ -10,14 +10,14 @@
 }
 @font-face {
    font-family: Cyberpunk;
-   src: url(/fonts/Cyberpunk.woff2);
+   src: url(./fonts/Cyberpunk.woff2);
 }
 @font-face {
     font-family: Motorblock;
-    src: url(/fonts/Motorblock.ttf);
+    src: url(./fonts/Motorblock.ttf);
 }
 body{
-    background-image: url(/img/background.webp);
+    background-image: url(./img/background.webp);
     padding:10vw 3vh 3vh 3vh;
     background-size: 100vw;
     background-repeat: repeat;
